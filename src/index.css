@@ -1,68 +1,154 @@
-:root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+margin: 0%;
+padding: 0%;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+.navbar {
+  background-color: #222;
+  color: white;
+  padding: 2rem;
+  text-align: center;
 }
 
-body {
-  margin: 0;
+.navbar-list {
   display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  justify-content: center;
+  gap: 2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
+.navbar-link {
+  color: white;
+  text-decoration: none;
   font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+  transition: color 0.2s ease-in-out;
+  font-size: 250%;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
+.navbar-link:hover {
+  color: #4da6ff;
+}
+
+ body {
+  font-family: "Italianno", cursive;
+  font-style: normal;
+
+}
+
+h1 { 
+  margin-left: 5%;
+  margin-top: 4%;
+  font-size: 500%;
+}
+
+
+.PHomepage{
+  margin-left: 8%;
+  margin-top: -0%;
+  font-size: 300%;
+}
+
+.PHomepage2{
+ margin-left: 10%;
+  margin-top: 0%;
+  font-size: 300%;
+}
+
+.PHomepage3{
+ margin-left: 60%;
+  margin-top: 10%;
+  font-size: 300%;
+text-align: center;
+}
+
+footer{
+  background-color: #222;
+  color: #222;
+  width: 100vw;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
   }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+
+.Projectsh1{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 300%;
+}
+
+.Pprojects{
+  font-size: 350%;
+  margin-left: 8%;
+  margin-top: 5%;
+  position: absolute;
+}
+
+.Pprojects2{
+  position: absolute;
+  font-size: 350%;
+  margin-left: 8%;
+  margin-top: 15%;
+}
+
+.Button1{
+  margin-left: 28%;
+  margin-top: 6%;
+  position: absolute;
+  background-color: #000;       
+  color: #fff;                  
+  padding: 0.6rem 1.5rem;       
+  border: none;                 
+  border-radius: 9999px;        
+  cursor: pointer;              
+  font-size: 1rem;              
+  font-weight: 500;
+}
+
+.Button2{
+  margin-left: 25%;
+  margin-top: 16%;
+  background-color: #000;       
+  color: #fff;                  
+  padding: 0.6rem 1.5rem;       
+  border: none;                 
+  border-radius: 9999px;        
+  cursor: pointer;              
+  font-size: 1rem;              
+  font-weight: 500;
+  position: absolute;
+}
+
+.Countriesh1{
+  position: absolute;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 300%;
+}
+
+.countriesP{
+  position: absolute;
+  font-size: 350%;
+  margin-left: 8%;
+  margin-top: 10%;
+  position: absolute;
+}
+
+.Gameh1{
+  position: absolute;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 300%;
+}
+
+.GameP{
+  position: absolute;
+  font-size: 350%;
+  margin-left: 8%;
+  margin-top: 10%;
+  position: absolute;
 }
