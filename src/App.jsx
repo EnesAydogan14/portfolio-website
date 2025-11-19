@@ -11,7 +11,7 @@ import ProjectPort from "./pages/ProjectPort";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/portfolio-website/">
       <Routes>
         <Route path="/" element={<Navbar />}>
           <Route index path="/" element={<Home />} />
