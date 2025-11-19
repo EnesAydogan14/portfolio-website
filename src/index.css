@@ -73,7 +73,6 @@ footer{
   }
 
 .Projectsh1{
-  font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
   font-size: 300%;
@@ -84,6 +83,8 @@ footer{
   margin-left: 8%;
   margin-top: 5%;
   position: absolute;
+  font-family: "Montserrat", sans-serif;
+  font-size: 250%
 }
 
 .Pprojects2{
@@ -91,6 +92,8 @@ footer{
   font-size: 350%;
   margin-left: 8%;
   margin-top: 15%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 250%
 }
 
 .Button1{
@@ -123,7 +126,6 @@ footer{
 
 .Countriesh1{
   position: absolute;
-  font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
   font-size: 300%;
@@ -135,11 +137,12 @@ footer{
   margin-left: 8%;
   margin-top: 10%;
   position: absolute;
+  font-family: "Montserrat", sans-serif;
+  font-size: 250%
 }
 
 .Gameh1{
   position: absolute;
-  font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
   font-size: 300%;
@@ -151,4 +154,182 @@ footer{
   margin-left: 8%;
   margin-top: 10%;
   position: absolute;
+  font-family: "Montserrat", sans-serif;
+  font-size: 250%
+}
+.porth1{
+  position: absolute;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 300%;
+}
+
+.portP{
+  position: absolute;
+  font-size: 350%;
+  margin-left: 8%;
+  margin-top: 10%;
+  position: absolute;
+  font-family: "Montserrat", sans-serif;
+  font-size: 250%
+}
+.projects-container {
+  padding: 0px;
+  
+  margin: 0 auto;
+}
+.projects-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+
+
+
+.project-name {
+  font-size: 300%;
+  margin-bottom: 10px;
+}
+
+
+
+.project-button {
+  font-size: 110%;
+  position: absolute;
+  margin-left: 14%;
+  margin-top: -2%;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  transition: 0.2s;
+}
+.about-page {
+  font-family: "Montserrat", sans-serif;
+  color: #000;
+  padding: 80px 80px 40px 80px;
+}
+
+
+.about-title {
+  font-size: 350%;
+  font-weight: normal;
+  margin-bottom: 40px;
+  font-family: "Montserrat", sans-serif;
+}
+
+
+.about-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 60px;
+}
+
+
+.about-text {
+  flex: 2;
+  max-width: 600px;
+  font-size: 120%;
+}
+
+
+.about-photo {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.about-photo img {
+  max-width: 230px;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+
+.about-skills {
+  flex: 1;
+  max-width: 260px;
+}
+
+.skills-title {
+  font-size: 120%;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.skills-list {
+  font-size: 95%;
+}
+
+.skill-item {
+  margin-bottom: 6px;
+}
+
+.highlight {
+  margin-top: 25px;
+  font-size: 95%;
+}
+
+.contact-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 80px 150px 40px 80px;
+  background-color: white;
+  color: black;
+}
+
+
+.contact-left {
+  width: 35%;
+}
+
+.contact-title {
+  font-size: 32px;
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+
+.contact-left p {
+  font-family: Georgia, serif;
+  margin-bottom: 10px;
+}
+
+
+.contact-right {
+  width: 45%;
+}
+
+.input-group {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group label {
+  margin-bottom: 5px;
+}
+
+
+.send-btn {
+  background: black;
+  color: white;
+  border: 1px solid black;
+  padding: 8px 20px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.send-btn:hover {
+  opacity: 0.85;
+}
+
+.status-message {
+  margin-top: 20px;
+  font-size: 48px;        
+  font-style: italic;    
+  color: black;          
 }

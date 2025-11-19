@@ -7,6 +7,7 @@ import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
 import ProjectCountries from "./pages/ProjectCountries";
 import ProjectGame from "./pages/ProjectGame";
+import ProjectPort from "./pages/ProjectPort";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/projectgame" element={<ProjectGame />} />
           <Route path="/projectcountries" element={<ProjectCountries />} />
+          <Route path="/projectport" element={<ProjectPort />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
         </Route>
